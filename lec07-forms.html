@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 07 - Forms in HTML</title>
+</head>
+
+<body>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" placeholder="Enter your name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter your email" required>
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="number" placeholder="Enter your phone" required>
+        <br>
+        <label for="pass">Password</label>
+        <input type="password" placeholder="Enter your password" required>
+        <br>
+        <label for="date">Date</label>
+        <input type="date">
+        <br>
+        <fieldset>
+            <legend>Select your gender</legend>
+
+            <input type="radio" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" value="female">
+            <label for="female">Female</label>
+        </fieldset>
+        <br>
+        <label for="skill">Skills</label>
+        MS Word <input type="checkbox">
+        MS Excel <input type="checkbox">
+        MS PowerPoint <input type="checkbox">
+        <br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+
+</html>
