@@ -18,6 +18,27 @@
         #para {
             color: green;
         }
+
+        button {
+            border: 1px solid rgb(229, 152, 9);
+            background-color: orange;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.5s ease;
+        }
+
+        button:hover {
+            background-color: darkorange;
+            color: white;
+
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 </head>
 <body>
@@ -34,10 +55,15 @@
     </p>
     <button>Register Now</button>
 
-
-    <h2>Aptech Gulshan 1</h2>
+<br>
+    <h2 style="display: inline; border-width: 1px; border-color: blue; border-style: solid; border-radius: 8px;">Aptech Gulshan 1</h2>
     <p id="para">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, placeat cupiditate accusantium culpa quis hic quaerat suscipit sint sit eaque eveniet odio saepe ut a qui ullam consequatur dolorum excepturi!
     </p>
+
+    <div class="image">
+            <img src="images/img.jpg" alt="Image" width="150" height="150" style="border-radius: 50%;">
+    </div>
+
 </body>
 </html>
