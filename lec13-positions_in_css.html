@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lec13 - Advanced CSS</title>
+    <style>
+        body {
+            height: 150vh;
+        }
+        .box {
+            width: 200px;
+            height: 100px;
+            color: white;
+            padding: 10px;
+        }
+
+        .box.relative {
+            background: blue;
+            position: relative;
+            top: 40px;
+            left: 40px;
+        }
+
+        .absolute-container {
+            position: relative;
+            height: 200px;
+            border: 2px solid black;
+            margin-top: 10px;
+        }
+
+        .box.absolute {
+            background: red;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .box.fixed {
+            position: fixed;
+            background: green;
+            bottom: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box relative">Relative Box</div>
+
+    <div class="absolute-container">
+        <div class="box absolute">Absolute Box</div>
+    </div>
+
+    <div class="box fixed">Fixed Box</div>
+</body>
+</html>
